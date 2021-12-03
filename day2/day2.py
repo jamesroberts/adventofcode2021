@@ -12,7 +12,7 @@ aim = 0
 for d in data:
     if d[0] == "forward":
         x += int(d[1])
-        y += a*int(d[1])
+        y += aim*int(d[1])
     elif d[0] == "up":
         aim -= int(d[1])
     elif d[0] == "down":
